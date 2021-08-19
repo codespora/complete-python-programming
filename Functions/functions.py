@@ -29,6 +29,25 @@ print("Hargeisa's temperature in degree Fahrenheit is", celsius_to_fahrenheit(32
 print("Jijiga's temperature in degree Fahrenheit is ", celsius_to_fahrenheit(28), "°F.")
 
 '''
+Let's work on another example. In this example, we will write a function that simulates the work done by a money exchanger (sarifle in Somali language)
+Assume that you have some money in the form of U.S dollars ($) and you would like to know how much you are worth in Somali Shillings. We can 
+write a function that can convert our U.S. dollars into Somali Shillings. We will use today's rate to convert. The date today is 17th of August
+2021 and 1 U.S dollar is equivalent to 585.00 Somali Shillings. 
+
+'''
+def usdollars_to_somaliShillings(usd):
+  amount_in_SomaliShillings = (usd*585.00)
+  return amount #this gives us the result
+
+
+
+
+
+
+
+
+
+'''
 In this lesson's last example, we focus on defining a function that accepts a list of cities. Then, we will use that function to print the names of the cities
 in the Horn of Africa. 
 '''
