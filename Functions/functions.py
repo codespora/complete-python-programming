@@ -6,9 +6,9 @@ In Python Programming Language, the def keyword is used to create/define a funct
 
 '''
 #Let's create the first skeleton of a function using the above-mentioned def keyword
-def first_function():
+def myFirst_function():
   print("Hello Amina and welcome to your first function.")
-first_function() 
+myFirst_function() 
 '''first_function() as shown above is how our function is called/invoked to print the statement. Hence, you are able to see the statement being printed out.
  If you do not call it this way, you will not be able to run the function 
 '''
