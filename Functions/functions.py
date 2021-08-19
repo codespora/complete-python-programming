@@ -37,15 +37,8 @@ write a function that can convert our U.S. dollars into Somali Shillings. We wil
 '''
 def usdollars_to_somaliShillings(usd):
   amount_in_SomaliShillings = (usd*585.00)
-  return amount #this gives us the result
-
-
-
-
-
-
-
-
+  return amount_in_SomaliShillings   #this gives us the result in Somali Shillings
+print ("I have $100. When I convert my money into Somali Shillings, I get", usdollars_to_somaliShillings(100), "Somali Shillings.")
 
 '''
 In this lesson's last example, we focus on defining a function that accepts a list of cities. Then, we will use that function to print the names of the cities
