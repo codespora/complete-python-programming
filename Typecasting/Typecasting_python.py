@@ -1,8 +1,8 @@
 '''
-Hello and welcome back to this tutorial.In this lesson, we are going to learn about the important typecasting concept in Python Programming Language.
+Hello and welcome back to this tutorial.In this lesson, we will learn about the important typecasting concept in Python Programming Language.
 Typecasting refers to a technique used to modify the values (or variables) declared in a given datatype into a different datatype. In the Python Programming
 Language, this is attained by using what is known as inbuilt constructor functions.Inbuilt means that you do not need to program. It is already programmed for you.
-The functions are int(), string(), float(). There are numerous functions. However, for brevity's sake, we will stick to these 3 methods.
+The functions are int(), string(), float(). There are several functions. However, in this lesson we will only stick to these 3 important methods.
 There is implicit and explicit typecasting. We will focus on the latter as implicit typecasting happens by default when you program.
 '''
 
