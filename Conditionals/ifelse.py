@@ -30,5 +30,13 @@ that 1 is equal to 2 and hence false). On the other hand, a=1 (does not mean tha
 of 1).
 
 ''' 
-#In this example, 
+#In this example, we will elaborate on a case in which the if part of the ifelse control flow is ignored. Instead, the else part will be executed
+
+students = ["Mohamed", "Suleiman", "Abdullahi", "Farah", "Amina", "Farhia", "Ubah"]
+if "Sahra" in students: #this checks if Sahra is one of the students in the above list. 
+	print("Sahra is a hardworking student") #since Sahra is not in the list, this print statement will be ignored. The else part will be evaluated
+
+else:
+	print("Sahra is not one of the students enrolled here") #this one is printed out.
+
 
